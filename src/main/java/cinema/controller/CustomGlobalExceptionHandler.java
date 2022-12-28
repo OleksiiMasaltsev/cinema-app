@@ -1,4 +1,4 @@
-package cinema.exception;
+package cinema.controller;
 
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.HttpHeaders;
