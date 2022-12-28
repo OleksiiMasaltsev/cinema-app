@@ -37,6 +37,8 @@ of a cinema.**
 - install Java 17+, MySQL 8.0 and Tomcat 9
 - get source code or fork from GitHub
 - configure [db.properties](src/main/resources/db.properties) with your database parameters (jdbc driver, url, username, password).
+- set hibernate.hbm2ddl.auto=**create** in [db.properties](src/main/resources/db.properties)
+- you will have an admin user loaded into DB [DataInitializer](src/main/java/cinema/util/DataInitializer.java)
 - run the project using Tomcat
 
 #### Available endpoints (with role permissions):
