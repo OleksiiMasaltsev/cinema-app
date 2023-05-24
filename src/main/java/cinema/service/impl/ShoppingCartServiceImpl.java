@@ -1,14 +1,14 @@
 package cinema.service.impl;
 
-import cinema.model.MovieSession;
 import cinema.dao.ShoppingCartDao;
 import cinema.dao.TicketDao;
+import cinema.model.MovieSession;
 import cinema.model.ShoppingCart;
 import cinema.model.Ticket;
 import cinema.model.User;
 import cinema.service.ShoppingCartService;
-import org.springframework.stereotype.Service;
 import java.util.Collections;
+import org.springframework.stereotype.Service;
 
 @Service
 public class ShoppingCartServiceImpl implements ShoppingCartService {

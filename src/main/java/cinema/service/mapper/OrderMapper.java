@@ -1,10 +1,10 @@
 package cinema.service.mapper;
 
-import cinema.model.Order;
 import cinema.dto.response.OrderResponseDto;
+import cinema.model.Order;
 import cinema.model.Ticket;
-import org.springframework.stereotype.Component;
 import java.util.stream.Collectors;
+import org.springframework.stereotype.Component;
 
 @Component
 public class OrderMapper implements ResponseDtoMapper<OrderResponseDto, Order> {

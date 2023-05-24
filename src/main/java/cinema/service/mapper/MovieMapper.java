@@ -1,7 +1,7 @@
 package cinema.service.mapper;
 
-import cinema.dto.response.MovieResponseDto;
 import cinema.dto.request.MovieRequestDto;
+import cinema.dto.response.MovieResponseDto;
 import cinema.model.Movie;
 import org.springframework.stereotype.Component;
 
